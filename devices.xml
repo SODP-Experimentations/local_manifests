@@ -37,7 +37,7 @@
 <project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="sony" revision="master" />
   
 <!--sm8250-->
-<project path="device/sony/edo" name="device-sony-edo" groups="device" remote="sony" revision="main" />
-<project path="device/sony/pdx203" name="device-sony-pdx203" groups="device" remote="sony" revision="main" />
-<project path="device/sony/pdx206" name="device-sony-pdx206" groups="device" remote="sony" revision="main" />
+<project path="device/sony/edo" name="device-sony-edo" groups="device" remote="sony" revision="master" />
+<project path="device/sony/pdx203" name="device-sony-pdx203" groups="device" remote="sony" revision="master" />
+<project path="device/sony/pdx206" name="device-sony-pdx206" groups="device" remote="sony" revision="master" />
 </manifest>
