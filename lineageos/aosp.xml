@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Replace LineageOS one with AOSP one-->
+    <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+    <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp"
+             groups="qcom,qcom_audio,pdk-qcom"/>
+</manifest>

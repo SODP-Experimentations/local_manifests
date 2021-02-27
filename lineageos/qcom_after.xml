@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Prefer sonyxperiadev/SonyOpenTelephony-->
+    <remove-project name="LineageOS/android_vendor_codeaurora_telephony"/>
+    <!--Prefer sonyxperiadev/hardware-qcom-gps-->
+    <remove-project name="LineageOS/android_hardware_qcom_gps"/>
+    <!--I can't compile it.
+    Seems like __user got defined somewhere else and makes havoc in
+    kernel/sony/msm-4.14/common-headers/kernel-headers/sound/lsm_params.h
+    So the soundtrigger hal for OK-Google is not available here.-->
+    <remove-project name="vendor-qcom-opensource-audio-hal-st-hal"/>
+</manifest>

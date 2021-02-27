@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="afstamming"
+            fetch="https://github.com/afstamming"/>
+
+    <project path="device/sony/customization" name="android_device_sony_customization"
+             remote="MartinX3-AndroidDevelopment-LineageOS" revision="MartinX3/lineage-17.1"/>
+
+    <include name="local_manifests/lineageos/aosp.xml"/>
+    <include name="local_manifests/lineageos/twrp.xml"/>
+
+    <!--Extra features-->
+    <project path="vendor/widevine" name="proprietary_vendor_widevine"
+             remote="afstamming" revision="af-lineage-17.1"/>
+
+    <!--Remove CAF stuff from LineageOS -> We use only the AOSP/SODP variant-->
+    <!--Maybe some stuff should be used instead of SODP ones -> needs further research-->
+    <remove-project name="LineageOS/android_hardware_qcom_media"/>
+    <remove-project name="LineageOS/android_hardware_qcom_display"/>
+    <remove-project name="LineageOS/android_hardware_qcom-caf_common"/>
+    <remove-project name="LineageOS/android_hardware_qcom_bt"/>
+    <remove-project name="LineageOS/android_hardware_qcom_thermal"/>
+    <remove-project name="LineageOS/android_hardware_qcom_vr"/>
+    <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audio"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_power"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt"/>
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_thermal-engine"/>
+    <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl"/>
+    <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sm8150_display"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sm8150_media"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sm8150_display"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sm8150_media"/>
+    <remove-project name="LineageOS/android_hardware_qcom_sdm845_display"/>
+</manifest>

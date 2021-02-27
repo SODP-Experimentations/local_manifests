@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Duplicate path="vendor/qcom/opensource/dataservices"-->
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices"/>
+    <!--Duplicate path="vendor/qcom/opensource/interfaces"-->
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces"/>
+    <!--Duplicate path="vendor/qcom/opensource/vibrator"-->
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
+</manifest>

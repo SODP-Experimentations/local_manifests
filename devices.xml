@@ -35,4 +35,7 @@
 <!--sm6125-->
 <project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sony" revision="r-mr1" />
 <project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="sony" revision="r-mr1" />
+
+<!-- LAST: Add/Replace repos and particular directories needed by LineageOS -->
+<include name="local_manifests/lineageos/devices.xml" />
 </manifest>

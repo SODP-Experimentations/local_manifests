@@ -2,4 +2,7 @@
 <manifest>
 <remote name="exfatprogs" fetch="https://github.com/exfatprogs/" />
 <project path="vendor/external/exfatprogs" name="exfatprogs" groups="device" remote="exfatprogs" revision="refs/tags/1.0.4" />
+
+<!-- LAST: Add/Replace repos and particular directories needed by LineageOS -->
+<include name="local_manifests/lineageos/external.xml" />
 </manifest>

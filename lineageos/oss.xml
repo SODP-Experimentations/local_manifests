@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Need to modify it to make it compatible with LineageOS-->
+    <remove-project name="repo_update"/>
+    <project path="vendor/oss/repo_update" name="repo_update" groups="device"
+             remote="MartinX3-AndroidDevelopment-LineageOS" revision="MartinX3/lineage-17.1">
+        <linkfile src="repo_update.sh" dest="repo_update.sh"/>
+    </project>
+    <!--Prefer SODP variant-->
+    <remove-project name="LineageOS/android_external_json-c"/>
+    <!--Already defined in LineageOS, remove the exact same copy in SODP to avoid conflicts-->
+    <remove-project name="vendor-oss-interfaces"/>
+</manifest>
