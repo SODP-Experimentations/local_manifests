@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="afstamming"
-            fetch="https://github.com/afstamming"/>
 
-    <project path="device/sony/customization" name="android_device_sony_customization"
-             remote="MartinX3-AndroidDevelopment-LineageOS" revision="MartinX3/lineage-17.1"/>
+    <project path="device/sony/customization" name="device-sony-customization"
+             remote="SODP-Experimentations" revision="lineage-18.1"/>
 
     <include name="local_manifests/lineageos/aosp.xml"/>
-    <include name="local_manifests/lineageos/twrp.xml"/>
-
-    <!--Extra features-->
-    <project path="vendor/widevine" name="proprietary_vendor_widevine"
-             remote="afstamming" revision="af-lineage-17.1"/>
 
     <!--Remove CAF stuff from LineageOS -> We use only the AOSP/SODP variant-->
     <!--Maybe some stuff should be used instead of SODP ones -> needs further research-->
