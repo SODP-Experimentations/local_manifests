@@ -29,10 +29,7 @@
     <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl"/>
     <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl"/>
     <remove-project name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr"/>
-    <remove-project name="LineageOS/android_hardware_qcom_sm8150_display"/>
     <remove-project name="LineageOS/android_hardware_qcom_sm8150_media"/>
-    <remove-project name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr"/>
     <remove-project name="LineageOS/android_hardware_qcom_sm8150_display"/>
-    <remove-project name="LineageOS/android_hardware_qcom_sm8150_media"/>
     <remove-project name="LineageOS/android_hardware_qcom_sdm845_display"/>
 </manifest>

@@ -8,6 +8,4 @@
     </project>
     <!--Prefer SODP variant-->
     <remove-project name="LineageOS/android_external_json-c"/>
-    <!--Already defined in LineageOS, remove the exact same copy in SODP to avoid conflicts-->
-    <remove-project name="vendor-oss-interfaces"/>
 </manifest>
