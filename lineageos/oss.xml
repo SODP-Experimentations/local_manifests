@@ -8,4 +8,5 @@
     </project>
     <!--Prefer SODP variant-->
     <remove-project name="LineageOS/android_external_json-c"/>
+    <remove-project name="packages_apps_ExtendedSettings"/>
 </manifest>
